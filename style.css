@@ -26,9 +26,10 @@ header{
     height: 100px;
   width: 100vw;
   z-index: 5;
+  background-image: url(fundo\ pvc.avif);
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: end;
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -64,11 +65,17 @@ header{
 }
 
 /* section 1 */
-
+.mn{
+    border-bottom: 1px solid black;
+    text-decoration: none;
+}
 #s1{
+    box-shadow: 10px 10px 21px -7px rgba(0,0,0,0.75);
     color: black;
     font-weight: bolder;
-    display: inline-block;
+   display: flex;
+   justify-content: center;
+   align-items: center;
   margin-right: 20px;
     border-radius: 11px;
    height: 40px;
@@ -77,10 +84,15 @@ header{
     padding: 10px;
     border: 1px solid black;
     
-
+    transition: border ease-out 0.1s ;
+}
+#s1:hover{
+    background-color: #e4e4e47c;
+    transition: ease-out 0.1s;
 }
 #s11{
-    
+    box-shadow: 10px 10px 21px -7px rgba(0,0,0,0.75);
+    border-radius: 6px;
     position: fixed;
     margin-top: 25px;
     top: 10%;
@@ -92,6 +104,7 @@ header{
     width: 180px;
     height: 100px;
     background-color: #e4e4e4;
+    border-radius: 10px;
 }
 #s11 > article{
     margin: auto;
@@ -104,12 +117,27 @@ header{
     margin-right: 10px;
     padding-left: 40px;
     padding-right: 40px;
-    border-radius: 6px;
-
+   
+    
 }
 #s11 > article > p:hover{
+   transition: ease-out 0.3s;
     background-color: white;
+    border-radius: 6px;
+    border: none;
 }
+#s11 > article > p> a:hover{
+    transition: ease-out 0.3s;
+     background-color: white;
+     border-radius: 6px;
+     border: none;
+     text-decoration: underline;
+     color: #4397FF;
+ }
+ #s11 > article > p> a{
+    text-decoration: none;
+    color: black;
+ }
 .menu{
     margin: auto;
     
@@ -117,20 +145,20 @@ header{
 }
 /* section 2 */
 .s2{
-  margin-top: -100px ;
-  margin: auto;
+  
+ margin-left: 30px;
 }
 div#logo{
-  
+    box-shadow: 10px 10px 21px -7px rgba(0,0,0,0.75);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   width: 120px;
-    background-image: url(lgoo1.jpeg);
+    background-image: url(emporio-pvc.png);
     height: 98px;
-    border-radius: 15px;
+    border-radius: 20px;
     z-index: 8;
-    margin-right: 30px;
+   
 }
 
 /* section 3 */
@@ -148,19 +176,21 @@ div#logo{
     background-color: rgba(0, 0, 0, 0.37);
     margin: auto;
     text-align: center;
-  
+  font-size: 16px;
+  font-weight: bolder;
     height: 80px;
 }
+
 .pj{
     background-color: rgba(0, 0, 0, 0.288);
     color: white;
     padding: 20px;
-    border: 1px solid #4397FF;
+    border: 1px solid #c3b66e;
     display: inline-block;
     border-radius: 20px;
 }
 .pj:hover{
-    background-color: #4397FF;
+    background-color: #c3b66e;
     transition: ease-out 0.3s;
 }
 .s4{
@@ -253,10 +283,12 @@ div#logo{
 .s5 > h1{
     margin: auto;
     text-align: center;
+    color: #c3b66e;
     border-bottom: 1px solid black;
     margin-bottom: 40px;
     margin-top: 40px;
-    font-size: 30px;
+    font-size: 35px;
+    font-family: "Oswald", serif;
 }
 .s5 >article> p{
     margin: auto;
@@ -275,14 +307,15 @@ div#logo{
 .h1-s6{
     text-align: center;
     margin-top: 100px;
-  
+  color: #c3b66e;
     margin-bottom: 40px;
    border-bottom: 1px solid black;
    display: inline-block;
-    font-size: 30px;
+    font-size: 35px;
+    font-family: "Oswald", serif;
     
 }
-/* article 6 */
+/* icle 6 */
 .art6{
     box-shadow: 0px 7px 22px -6px rgba(0,0,0,0.7);
     background-color: black;
@@ -303,8 +336,8 @@ div#logo{
 }
 .art6 > video{
     box-shadow: 0px 7px 22px -6px rgba(0,0,0,0.7);
-    width: 270px;
-    height: 350px;
+    width: 300px;
+    height: 370px;
     margin-top: 20px;
     border-radius:10px ;
 }
@@ -374,10 +407,10 @@ div#logo{
    
     text-align: center;
     margin-bottom: 40px;
-    color: black;
+    color: #c3b66e;
     border-bottom: 1px solid black;
-    font-size: 30px;
-   
+    font-size: 35px;
+    font-family: "Oswald", serif;
 }
 .s8 > p {
     text-align: center;
