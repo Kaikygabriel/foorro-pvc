@@ -180,8 +180,8 @@ div#logo{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  width: 120px;
-    background-image: url(emporio-pvc.png);
+  width: 200px;
+    background-image: url(logo3.jpeg);
     height: 98px;
     border-radius: 20px;
     z-index: 8;
@@ -466,8 +466,8 @@ div#logo{
     margin: auto;
 }
 #ps9 > img{
-    width: 40vw;
-    height: 140px;
+    width: 200px;
+    height: 120px;
     margin: auto;
     margin-top: -3px;
 }
