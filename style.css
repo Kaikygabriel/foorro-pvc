@@ -439,6 +439,16 @@ div#logo{
     font-size: 35px;
     font-family: "Oswald", serif;
 }
+.h1-s88{
+    display: inline-block;
+   
+    text-align: center;
+    margin-bottom: 40px;
+    color: #c3b66e;
+   
+    font-size: 35px;
+    font-family: "Oswald", serif;
+}
 .s8 > p {
     text-align: center;
     margin-left: 5px;
